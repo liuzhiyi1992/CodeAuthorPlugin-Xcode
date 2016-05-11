@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		481D38BD1CCC85F900DBF4E5 /* CodeAuthorSignitureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 481D38BC1CCC85F900DBF4E5 /* CodeAuthorSignitureView.m */; };
+		481D38C01CCC925A00DBF4E5 /* CodeAuthorScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 481D38BF1CCC925A00DBF4E5 /* CodeAuthorScrollView.m */; };
 		48663E951CC8859B00E45B4D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48663E941CC8859B00E45B4D /* AppKit.framework */; };
 		48663E971CC8859B00E45B4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48663E961CC8859B00E45B4D /* Foundation.framework */; };
 		48663E9B1CC8859B00E45B4D /* CodeAuthorPlugin.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 48663E9A1CC8859B00E45B4D /* CodeAuthorPlugin.xcscheme */; };
 		48663E9E1CC8859B00E45B4D /* CodeAuthorPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 48663E9D1CC8859B00E45B4D /* CodeAuthorPlugin.m */; };
 		48663EA11CC8859B00E45B4D /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 48663EA01CC8859B00E45B4D /* NSObject_Extension.m */; };
+		488E76F91CCF7CCB00CDC69A /* CodeAuthor.m in Sources */ = {isa = PBXBuildFile; fileRef = 488E76F81CCF7CCB00CDC69A /* CodeAuthor.m */; };
+		48A7E0C81CC8C8860046205B /* NSView+Dumping.m in Sources */ = {isa = PBXBuildFile; fileRef = 48A7E0C71CC8C8860046205B /* NSView+Dumping.m */; };
+		48F6CCEE1CC9C2BA00380303 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F6CCED1CC9C2BA00380303 /* DVTKit.framework */; };
+		48F6CCF01CC9C33600380303 /* IDESourceEditor in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F6CCEF1CC9C33600380303 /* IDESourceEditor */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		481D38BB1CCC85F900DBF4E5 /* CodeAuthorSignitureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeAuthorSignitureView.h; sourceTree = "<group>"; };
+		481D38BC1CCC85F900DBF4E5 /* CodeAuthorSignitureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeAuthorSignitureView.m; sourceTree = "<group>"; };
+		481D38BE1CCC925A00DBF4E5 /* CodeAuthorScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeAuthorScrollView.h; sourceTree = "<group>"; };
+		481D38BF1CCC925A00DBF4E5 /* CodeAuthorScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeAuthorScrollView.m; sourceTree = "<group>"; };
 		48663E911CC8859B00E45B4D /* CodeAuthorPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeAuthorPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		48663E941CC8859B00E45B4D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		48663E961CC8859B00E45B4D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -24,6 +34,110 @@
 		48663E9F1CC8859B00E45B4D /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
 		48663EA01CC8859B00E45B4D /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
 		48663EA21CC8859B00E45B4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488E76F71CCF7CCB00CDC69A /* CodeAuthor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeAuthor.h; sourceTree = "<group>"; };
+		488E76F81CCF7CCB00CDC69A /* CodeAuthor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeAuthor.m; sourceTree = "<group>"; };
+		48A7E0C61CC8C8860046205B /* NSView+Dumping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+Dumping.h"; sourceTree = "<group>"; };
+		48A7E0C71CC8C8860046205B /* NSView+Dumping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+Dumping.m"; sourceTree = "<group>"; };
+		48F6CC891CC9C07900380303 /* DVTFilePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTFilePath.h; sourceTree = "<group>"; };
+		48F6CC8A1CC9C07900380303 /* IDEEditorModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditorModeViewController.h; sourceTree = "<group>"; };
+		48F6CC8B1CC9C07900380303 /* DBGBreakpointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGBreakpointAnnotation.h; sourceTree = "<group>"; };
+		48F6CC8C1CC9C07900380303 /* DBGBreakpointAnnotationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBGBreakpointAnnotationProvider.h; sourceTree = "<group>"; };
+		48F6CC8D1CC9C07900380303 /* DVTAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTAnnotation.h; sourceTree = "<group>"; };
+		48F6CC8E1CC9C07900380303 /* DVTAnnotationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTAnnotationManager.h; sourceTree = "<group>"; };
+		48F6CC8F1CC9C07900380303 /* DVTAnnotationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTAnnotationProvider.h; sourceTree = "<group>"; };
+		48F6CC901CC9C07900380303 /* DVTCompletingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DVTCompletingTextView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		48F6CC911CC9C07900380303 /* DVTDocumentLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTDocumentLocation.h; sourceTree = "<group>"; };
+		48F6CC921CC9C07900380303 /* DVTFindResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTFindResult.h; sourceTree = "<group>"; };
+		48F6CC931CC9C07900380303 /* DVTFoldingLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTFoldingLayoutManager.h; sourceTree = "<group>"; };
+		48F6CC941CC9C07900380303 /* DVTFoldingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTFoldingManager.h; sourceTree = "<group>"; };
+		48F6CC951CC9C07900380303 /* DVTFoldingManagerDelegate-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTFoldingManagerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		48F6CC961CC9C07900380303 /* DVTFontAndColorTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTFontAndColorTheme.h; sourceTree = "<group>"; };
+		48F6CC971CC9C07900380303 /* DVTInvalidation-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTInvalidation-Protocol.h"; sourceTree = "<group>"; };
+		48F6CC981CC9C07900380303 /* DVTLayoutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTLayoutManager.h; sourceTree = "<group>"; };
+		48F6CC991CC9C07900380303 /* DVTMessageBubbleAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTMessageBubbleAnnotation.h; sourceTree = "<group>"; };
+		48F6CC9A1CC9C07900380303 /* DVTPointerArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTPointerArray.h; sourceTree = "<group>"; };
+		48F6CC9B1CC9C07900380303 /* DVTPreferenceSet-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTPreferenceSet-Protocol.h"; sourceTree = "<group>"; };
+		48F6CC9C1CC9C07900380303 /* DVTPreferenceSetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTPreferenceSetManager.h; sourceTree = "<group>"; };
+		48F6CC9D1CC9C07900380303 /* DVTSourceLanguageSourceModelService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTSourceLanguageSourceModelService.h; sourceTree = "<group>"; };
+		48F6CC9E1CC9C07900380303 /* DVTSourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTSourceModel.h; sourceTree = "<group>"; };
+		48F6CC9F1CC9C07900380303 /* DVTSourceModelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTSourceModelItem.h; sourceTree = "<group>"; };
+		48F6CCA01CC9C07900380303 /* DVTSourceNodeTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTSourceNodeTypes.h; sourceTree = "<group>"; };
+		48F6CCA11CC9C07900380303 /* DVTSourceTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DVTSourceTextView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		48F6CCA21CC9C07900380303 /* DVTTextAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTextAnnotation.h; sourceTree = "<group>"; };
+		48F6CCA31CC9C07900380303 /* DVTTextDocumentLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTextDocumentLocation.h; sourceTree = "<group>"; };
+		48F6CCA41CC9C07900380303 /* DVTTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = DVTTextStorage.h; sourceTree = "<group>"; };
+		48F6CCA51CC9C07900380303 /* DVTTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTextView.h; sourceTree = "<group>"; };
+		48F6CCA61CC9C07900380303 /* DVTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTViewController.h; sourceTree = "<group>"; };
+		48F6CCA71CC9C07900380303 /* IDEBreakpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEBreakpoint.h; sourceTree = "<group>"; };
+		48F6CCA81CC9C07900380303 /* IDEBuildIssueAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEBuildIssueAnnotation.h; sourceTree = "<group>"; };
+		48F6CCA91CC9C07900380303 /* IDEBuildIssueErrorAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEBuildIssueErrorAnnotation.h; sourceTree = "<group>"; };
+		48F6CCAA1CC9C07900380303 /* IDEBuildIssueWarningAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEBuildIssueWarningAnnotation.h; sourceTree = "<group>"; };
+		48F6CCAB1CC9C07900380303 /* IDEComparisonEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEComparisonEditor.h; sourceTree = "<group>"; };
+		48F6CCAC1CC9C07900380303 /* IDEEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditor.h; sourceTree = "<group>"; };
+		48F6CCAD1CC9C07900380303 /* IDEEditorArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditorArea.h; sourceTree = "<group>"; };
+		48F6CCAE1CC9C07900380303 /* IDEEditorContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditorContext.h; sourceTree = "<group>"; };
+		48F6CCAF1CC9C07900380303 /* IDEEditorDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IDEEditorDocument.h; sourceTree = "<group>"; };
+		48F6CCB01CC9C07900380303 /* IDEFileBreakpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEFileBreakpoint.h; sourceTree = "<group>"; };
+		48F6CCB11CC9C07900380303 /* IDEFileTextSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEFileTextSettings.h; sourceTree = "<group>"; };
+		48F6CCB21CC9C07900380303 /* IDEIssueAnnotationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEIssueAnnotationProvider.h; sourceTree = "<group>"; };
+		48F6CCB31CC9C07900380303 /* IDESourceCodeComparisonEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeComparisonEditor.h; sourceTree = "<group>"; };
+		48F6CCB41CC9C07900380303 /* IDESourceCodeDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IDESourceCodeDocument.h; sourceTree = "<group>"; };
+		48F6CCB51CC9C07900380303 /* IDESourceCodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IDESourceCodeEditor.h; sourceTree = "<group>"; };
+		48F6CCB61CC9C07900380303 /* IDESourceCodeEditorContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IDESourceCodeEditorContainerView.h; sourceTree = "<group>"; };
+		48F6CCB71CC9C07900380303 /* IDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IDEViewController.h; sourceTree = "<group>"; };
+		48F6CCB81CC9C07900380303 /* IDEWorkspaceTabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEWorkspaceTabController.h; sourceTree = "<group>"; };
+		48F6CCB91CC9C07900380303 /* IDEWorkspaceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEWorkspaceWindowController.h; sourceTree = "<group>"; };
+		48F6CCBC1CC9C12F00380303 /* DBGBreakpointAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBGBreakpointAnnotation.h; sourceTree = "<group>"; };
+		48F6CCBD1CC9C12F00380303 /* DBGBreakpointAnnotationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBGBreakpointAnnotationProvider.h; sourceTree = "<group>"; };
+		48F6CCBE1CC9C12F00380303 /* DVTAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTAnnotation.h; sourceTree = "<group>"; };
+		48F6CCBF1CC9C12F00380303 /* DVTAnnotationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTAnnotationManager.h; sourceTree = "<group>"; };
+		48F6CCC01CC9C12F00380303 /* DVTAnnotationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTAnnotationProvider.h; sourceTree = "<group>"; };
+		48F6CCC11CC9C12F00380303 /* DVTCompletingTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTCompletingTextView.h; sourceTree = "<group>"; };
+		48F6CCC21CC9C12F00380303 /* DVTDocumentLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTDocumentLocation.h; sourceTree = "<group>"; };
+		48F6CCC31CC9C12F00380303 /* DVTFilePath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTFilePath.h; sourceTree = "<group>"; };
+		48F6CCC41CC9C12F00380303 /* DVTFindResult.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTFindResult.h; sourceTree = "<group>"; };
+		48F6CCC51CC9C12F00380303 /* DVTFoldingLayoutManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTFoldingLayoutManager.h; sourceTree = "<group>"; };
+		48F6CCC61CC9C12F00380303 /* DVTFoldingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTFoldingManager.h; sourceTree = "<group>"; };
+		48F6CCC71CC9C12F00380303 /* DVTFoldingManagerDelegate-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVTFoldingManagerDelegate-Protocol.h"; sourceTree = "<group>"; };
+		48F6CCC81CC9C12F00380303 /* DVTFontAndColorTheme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTFontAndColorTheme.h; sourceTree = "<group>"; };
+		48F6CCC91CC9C12F00380303 /* DVTInvalidation-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVTInvalidation-Protocol.h"; sourceTree = "<group>"; };
+		48F6CCCA1CC9C12F00380303 /* DVTLayoutManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTLayoutManager.h; sourceTree = "<group>"; };
+		48F6CCCB1CC9C12F00380303 /* DVTMessageBubbleAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTMessageBubbleAnnotation.h; sourceTree = "<group>"; };
+		48F6CCCC1CC9C12F00380303 /* DVTPointerArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTPointerArray.h; sourceTree = "<group>"; };
+		48F6CCCD1CC9C12F00380303 /* DVTPreferenceSet-Protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DVTPreferenceSet-Protocol.h"; sourceTree = "<group>"; };
+		48F6CCCE1CC9C12F00380303 /* DVTPreferenceSetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTPreferenceSetManager.h; sourceTree = "<group>"; };
+		48F6CCCF1CC9C12F00380303 /* DVTSourceLanguageSourceModelService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTSourceLanguageSourceModelService.h; sourceTree = "<group>"; };
+		48F6CCD01CC9C12F00380303 /* DVTSourceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTSourceModel.h; sourceTree = "<group>"; };
+		48F6CCD11CC9C12F00380303 /* DVTSourceModelItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTSourceModelItem.h; sourceTree = "<group>"; };
+		48F6CCD21CC9C12F00380303 /* DVTSourceNodeTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTSourceNodeTypes.h; sourceTree = "<group>"; };
+		48F6CCD31CC9C12F00380303 /* DVTSourceTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTSourceTextView.h; sourceTree = "<group>"; };
+		48F6CCD41CC9C12F00380303 /* DVTTextAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTTextAnnotation.h; sourceTree = "<group>"; };
+		48F6CCD51CC9C12F00380303 /* DVTTextDocumentLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTTextDocumentLocation.h; sourceTree = "<group>"; };
+		48F6CCD61CC9C12F00380303 /* DVTTextStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTTextStorage.h; sourceTree = "<group>"; };
+		48F6CCD71CC9C12F00380303 /* DVTTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTTextView.h; sourceTree = "<group>"; };
+		48F6CCD81CC9C12F00380303 /* DVTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVTViewController.h; sourceTree = "<group>"; };
+		48F6CCD91CC9C12F00380303 /* IDEBreakpoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEBreakpoint.h; sourceTree = "<group>"; };
+		48F6CCDA1CC9C12F00380303 /* IDEBuildIssueAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEBuildIssueAnnotation.h; sourceTree = "<group>"; };
+		48F6CCDB1CC9C12F00380303 /* IDEBuildIssueErrorAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEBuildIssueErrorAnnotation.h; sourceTree = "<group>"; };
+		48F6CCDC1CC9C12F00380303 /* IDEBuildIssueWarningAnnotation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEBuildIssueWarningAnnotation.h; sourceTree = "<group>"; };
+		48F6CCDD1CC9C12F00380303 /* IDEComparisonEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEComparisonEditor.h; sourceTree = "<group>"; };
+		48F6CCDE1CC9C12F00380303 /* IDEEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEEditor.h; sourceTree = "<group>"; };
+		48F6CCDF1CC9C12F00380303 /* IDEEditorArea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEEditorArea.h; sourceTree = "<group>"; };
+		48F6CCE01CC9C12F00380303 /* IDEEditorContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEEditorContext.h; sourceTree = "<group>"; };
+		48F6CCE11CC9C12F00380303 /* IDEEditorDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEEditorDocument.h; sourceTree = "<group>"; };
+		48F6CCE21CC9C12F00380303 /* IDEEditorModeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEEditorModeViewController.h; sourceTree = "<group>"; };
+		48F6CCE31CC9C12F00380303 /* IDEFileBreakpoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEFileBreakpoint.h; sourceTree = "<group>"; };
+		48F6CCE41CC9C12F00380303 /* IDEFileTextSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEFileTextSettings.h; sourceTree = "<group>"; };
+		48F6CCE51CC9C12F00380303 /* IDEIssueAnnotationProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEIssueAnnotationProvider.h; sourceTree = "<group>"; };
+		48F6CCE61CC9C12F00380303 /* IDESourceCodeComparisonEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeComparisonEditor.h; sourceTree = "<group>"; };
+		48F6CCE71CC9C12F00380303 /* IDESourceCodeDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeDocument.h; sourceTree = "<group>"; };
+		48F6CCE81CC9C12F00380303 /* IDESourceCodeEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditor.h; sourceTree = "<group>"; };
+		48F6CCE91CC9C12F00380303 /* IDESourceCodeEditorContainerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditorContainerView.h; sourceTree = "<group>"; };
+		48F6CCEA1CC9C12F00380303 /* IDEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
+		48F6CCEB1CC9C12F00380303 /* IDEWorkspaceTabController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEWorkspaceTabController.h; sourceTree = "<group>"; };
+		48F6CCEC1CC9C12F00380303 /* IDEWorkspaceWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IDEWorkspaceWindowController.h; sourceTree = "<group>"; };
+		48F6CCED1CC9C2BA00380303 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTKit.framework; path = CodeAuthorPlugin/DVTKit.framework; sourceTree = "<group>"; };
+		48F6CCEF1CC9C33600380303 /* IDESourceEditor */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = IDESourceEditor; path = CodeAuthorPlugin/IDESourceEditor; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +145,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F6CCF01CC9C33600380303 /* IDESourceEditor in Frameworks */,
+				48F6CCEE1CC9C2BA00380303 /* DVTKit.framework in Frameworks */,
 				48663E951CC8859B00E45B4D /* AppKit.framework in Frameworks */,
 				48663E971CC8859B00E45B4D /* Foundation.framework in Frameworks */,
 			);
@@ -43,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				48663E981CC8859B00E45B4D /* CodeAuthorPlugin */,
+				48F6CCBA1CC9C07900380303 /* Xcode Headers */,
 				48663E931CC8859B00E45B4D /* Frameworks */,
 				48663E921CC8859B00E45B4D /* Products */,
 			);
@@ -59,6 +176,9 @@
 		48663E931CC8859B00E45B4D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				48F6CCEF1CC9C33600380303 /* IDESourceEditor */,
+				48F6CCED1CC9C2BA00380303 /* DVTKit.framework */,
+				48F6CCBB1CC9C12F00380303 /* Xcode Headers */,
 				48663E941CC8859B00E45B4D /* AppKit.framework */,
 				48663E961CC8859B00E45B4D /* Foundation.framework */,
 			);
@@ -68,10 +188,18 @@
 		48663E981CC8859B00E45B4D /* CodeAuthorPlugin */ = {
 			isa = PBXGroup;
 			children = (
-				48663E9C1CC8859B00E45B4D /* CodeAuthorPlugin.h */,
-				48663E9D1CC8859B00E45B4D /* CodeAuthorPlugin.m */,
 				48663E9F1CC8859B00E45B4D /* NSObject_Extension.h */,
 				48663EA01CC8859B00E45B4D /* NSObject_Extension.m */,
+				48663E9C1CC8859B00E45B4D /* CodeAuthorPlugin.h */,
+				48663E9D1CC8859B00E45B4D /* CodeAuthorPlugin.m */,
+				481D38BE1CCC925A00DBF4E5 /* CodeAuthorScrollView.h */,
+				481D38BF1CCC925A00DBF4E5 /* CodeAuthorScrollView.m */,
+				481D38BB1CCC85F900DBF4E5 /* CodeAuthorSignitureView.h */,
+				481D38BC1CCC85F900DBF4E5 /* CodeAuthorSignitureView.m */,
+				48A7E0C61CC8C8860046205B /* NSView+Dumping.h */,
+				48A7E0C71CC8C8860046205B /* NSView+Dumping.m */,
+				488E76F71CCF7CCB00CDC69A /* CodeAuthor.h */,
+				488E76F81CCF7CCB00CDC69A /* CodeAuthor.m */,
 				48663EA21CC8859B00E45B4D /* Info.plist */,
 				48663E991CC8859B00E45B4D /* Supporting Files */,
 			);
@@ -84,6 +212,120 @@
 				48663E9A1CC8859B00E45B4D /* CodeAuthorPlugin.xcscheme */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48F6CCBA1CC9C07900380303 /* Xcode Headers */ = {
+			isa = PBXGroup;
+			children = (
+				48F6CC891CC9C07900380303 /* DVTFilePath.h */,
+				48F6CC8A1CC9C07900380303 /* IDEEditorModeViewController.h */,
+				48F6CC8B1CC9C07900380303 /* DBGBreakpointAnnotation.h */,
+				48F6CC8C1CC9C07900380303 /* DBGBreakpointAnnotationProvider.h */,
+				48F6CC8D1CC9C07900380303 /* DVTAnnotation.h */,
+				48F6CC8E1CC9C07900380303 /* DVTAnnotationManager.h */,
+				48F6CC8F1CC9C07900380303 /* DVTAnnotationProvider.h */,
+				48F6CC901CC9C07900380303 /* DVTCompletingTextView.h */,
+				48F6CC911CC9C07900380303 /* DVTDocumentLocation.h */,
+				48F6CC921CC9C07900380303 /* DVTFindResult.h */,
+				48F6CC931CC9C07900380303 /* DVTFoldingLayoutManager.h */,
+				48F6CC941CC9C07900380303 /* DVTFoldingManager.h */,
+				48F6CC951CC9C07900380303 /* DVTFoldingManagerDelegate-Protocol.h */,
+				48F6CC961CC9C07900380303 /* DVTFontAndColorTheme.h */,
+				48F6CC971CC9C07900380303 /* DVTInvalidation-Protocol.h */,
+				48F6CC981CC9C07900380303 /* DVTLayoutManager.h */,
+				48F6CC991CC9C07900380303 /* DVTMessageBubbleAnnotation.h */,
+				48F6CC9A1CC9C07900380303 /* DVTPointerArray.h */,
+				48F6CC9B1CC9C07900380303 /* DVTPreferenceSet-Protocol.h */,
+				48F6CC9C1CC9C07900380303 /* DVTPreferenceSetManager.h */,
+				48F6CC9D1CC9C07900380303 /* DVTSourceLanguageSourceModelService.h */,
+				48F6CC9E1CC9C07900380303 /* DVTSourceModel.h */,
+				48F6CC9F1CC9C07900380303 /* DVTSourceModelItem.h */,
+				48F6CCA01CC9C07900380303 /* DVTSourceNodeTypes.h */,
+				48F6CCA11CC9C07900380303 /* DVTSourceTextView.h */,
+				48F6CCA21CC9C07900380303 /* DVTTextAnnotation.h */,
+				48F6CCA31CC9C07900380303 /* DVTTextDocumentLocation.h */,
+				48F6CCA41CC9C07900380303 /* DVTTextStorage.h */,
+				48F6CCA51CC9C07900380303 /* DVTTextView.h */,
+				48F6CCA61CC9C07900380303 /* DVTViewController.h */,
+				48F6CCA71CC9C07900380303 /* IDEBreakpoint.h */,
+				48F6CCA81CC9C07900380303 /* IDEBuildIssueAnnotation.h */,
+				48F6CCA91CC9C07900380303 /* IDEBuildIssueErrorAnnotation.h */,
+				48F6CCAA1CC9C07900380303 /* IDEBuildIssueWarningAnnotation.h */,
+				48F6CCAB1CC9C07900380303 /* IDEComparisonEditor.h */,
+				48F6CCAC1CC9C07900380303 /* IDEEditor.h */,
+				48F6CCAD1CC9C07900380303 /* IDEEditorArea.h */,
+				48F6CCAE1CC9C07900380303 /* IDEEditorContext.h */,
+				48F6CCAF1CC9C07900380303 /* IDEEditorDocument.h */,
+				48F6CCB01CC9C07900380303 /* IDEFileBreakpoint.h */,
+				48F6CCB11CC9C07900380303 /* IDEFileTextSettings.h */,
+				48F6CCB21CC9C07900380303 /* IDEIssueAnnotationProvider.h */,
+				48F6CCB31CC9C07900380303 /* IDESourceCodeComparisonEditor.h */,
+				48F6CCB41CC9C07900380303 /* IDESourceCodeDocument.h */,
+				48F6CCB51CC9C07900380303 /* IDESourceCodeEditor.h */,
+				48F6CCB61CC9C07900380303 /* IDESourceCodeEditorContainerView.h */,
+				48F6CCB71CC9C07900380303 /* IDEViewController.h */,
+				48F6CCB81CC9C07900380303 /* IDEWorkspaceTabController.h */,
+				48F6CCB91CC9C07900380303 /* IDEWorkspaceWindowController.h */,
+			);
+			name = "Xcode Headers";
+			path = "../SCXcodeMiniMap-master/SCXcodeMinimap/Xcode Headers";
+			sourceTree = "<group>";
+		};
+		48F6CCBB1CC9C12F00380303 /* Xcode Headers */ = {
+			isa = PBXGroup;
+			children = (
+				48F6CCBC1CC9C12F00380303 /* DBGBreakpointAnnotation.h */,
+				48F6CCBD1CC9C12F00380303 /* DBGBreakpointAnnotationProvider.h */,
+				48F6CCBE1CC9C12F00380303 /* DVTAnnotation.h */,
+				48F6CCBF1CC9C12F00380303 /* DVTAnnotationManager.h */,
+				48F6CCC01CC9C12F00380303 /* DVTAnnotationProvider.h */,
+				48F6CCC11CC9C12F00380303 /* DVTCompletingTextView.h */,
+				48F6CCC21CC9C12F00380303 /* DVTDocumentLocation.h */,
+				48F6CCC31CC9C12F00380303 /* DVTFilePath.h */,
+				48F6CCC41CC9C12F00380303 /* DVTFindResult.h */,
+				48F6CCC51CC9C12F00380303 /* DVTFoldingLayoutManager.h */,
+				48F6CCC61CC9C12F00380303 /* DVTFoldingManager.h */,
+				48F6CCC71CC9C12F00380303 /* DVTFoldingManagerDelegate-Protocol.h */,
+				48F6CCC81CC9C12F00380303 /* DVTFontAndColorTheme.h */,
+				48F6CCC91CC9C12F00380303 /* DVTInvalidation-Protocol.h */,
+				48F6CCCA1CC9C12F00380303 /* DVTLayoutManager.h */,
+				48F6CCCB1CC9C12F00380303 /* DVTMessageBubbleAnnotation.h */,
+				48F6CCCC1CC9C12F00380303 /* DVTPointerArray.h */,
+				48F6CCCD1CC9C12F00380303 /* DVTPreferenceSet-Protocol.h */,
+				48F6CCCE1CC9C12F00380303 /* DVTPreferenceSetManager.h */,
+				48F6CCCF1CC9C12F00380303 /* DVTSourceLanguageSourceModelService.h */,
+				48F6CCD01CC9C12F00380303 /* DVTSourceModel.h */,
+				48F6CCD11CC9C12F00380303 /* DVTSourceModelItem.h */,
+				48F6CCD21CC9C12F00380303 /* DVTSourceNodeTypes.h */,
+				48F6CCD31CC9C12F00380303 /* DVTSourceTextView.h */,
+				48F6CCD41CC9C12F00380303 /* DVTTextAnnotation.h */,
+				48F6CCD51CC9C12F00380303 /* DVTTextDocumentLocation.h */,
+				48F6CCD61CC9C12F00380303 /* DVTTextStorage.h */,
+				48F6CCD71CC9C12F00380303 /* DVTTextView.h */,
+				48F6CCD81CC9C12F00380303 /* DVTViewController.h */,
+				48F6CCD91CC9C12F00380303 /* IDEBreakpoint.h */,
+				48F6CCDA1CC9C12F00380303 /* IDEBuildIssueAnnotation.h */,
+				48F6CCDB1CC9C12F00380303 /* IDEBuildIssueErrorAnnotation.h */,
+				48F6CCDC1CC9C12F00380303 /* IDEBuildIssueWarningAnnotation.h */,
+				48F6CCDD1CC9C12F00380303 /* IDEComparisonEditor.h */,
+				48F6CCDE1CC9C12F00380303 /* IDEEditor.h */,
+				48F6CCDF1CC9C12F00380303 /* IDEEditorArea.h */,
+				48F6CCE01CC9C12F00380303 /* IDEEditorContext.h */,
+				48F6CCE11CC9C12F00380303 /* IDEEditorDocument.h */,
+				48F6CCE21CC9C12F00380303 /* IDEEditorModeViewController.h */,
+				48F6CCE31CC9C12F00380303 /* IDEFileBreakpoint.h */,
+				48F6CCE41CC9C12F00380303 /* IDEFileTextSettings.h */,
+				48F6CCE51CC9C12F00380303 /* IDEIssueAnnotationProvider.h */,
+				48F6CCE61CC9C12F00380303 /* IDESourceCodeComparisonEditor.h */,
+				48F6CCE71CC9C12F00380303 /* IDESourceCodeDocument.h */,
+				48F6CCE81CC9C12F00380303 /* IDESourceCodeEditor.h */,
+				48F6CCE91CC9C12F00380303 /* IDESourceCodeEditorContainerView.h */,
+				48F6CCEA1CC9C12F00380303 /* IDEViewController.h */,
+				48F6CCEB1CC9C12F00380303 /* IDEWorkspaceTabController.h */,
+				48F6CCEC1CC9C12F00380303 /* IDEWorkspaceWindowController.h */,
+			);
+			name = "Xcode Headers";
+			path = "CodeAuthorPlugin/Xcode Headers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,8 +395,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48A7E0C81CC8C8860046205B /* NSView+Dumping.m in Sources */,
+				488E76F91CCF7CCB00CDC69A /* CodeAuthor.m in Sources */,
 				48663E9E1CC8859B00E45B4D /* CodeAuthorPlugin.m in Sources */,
+				481D38C01CCC925A00DBF4E5 /* CodeAuthorScrollView.m in Sources */,
 				48663EA11CC8859B00E45B4D /* NSObject_Extension.m in Sources */,
+				481D38BD1CCC85F900DBF4E5 /* CodeAuthorSignitureView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,8 +488,16 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CodeAuthorPlugin",
+				);
 				INFOPLIST_FILE = CodeAuthorPlugin/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CodeAuthorPlugin",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzy.CodeAuthorPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -257,8 +511,16 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CodeAuthorPlugin",
+				);
 				INFOPLIST_FILE = CodeAuthorPlugin/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CodeAuthorPlugin",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.lzy.CodeAuthorPlugin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -285,6 +547,7 @@
 				48663EA71CC8859B00E45B4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
